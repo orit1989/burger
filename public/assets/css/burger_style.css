@@ -1,0 +1,28 @@
+body {
+    background-color: #006073;
+    text-align: center;
+    font-family: fantasy;
+}
+
+img {
+    height: 300px;
+}
+
+button {
+    margin-top: 20px;
+}
+
+h1, h4 {
+    color: #f98600;
+}
+
+h3 {
+    color: 
+    #008d13;
+}
+
+p {
+    color: #841006;
+    font-size: 20px;
+}
+
