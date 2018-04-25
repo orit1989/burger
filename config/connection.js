@@ -8,11 +8,11 @@ if (process.env.JAWSDB_URL) {
 } else {
     connection = mysql.createConnection({
         port: 3306,
-        host: "vhw3t8e71xdz9k14.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
-        user: "l3lrnph7fiv4eu8x",
-        password: "mt5jsjqg8jh20atq",
-        database: "burgers_db"
-        // socketPath: "/Applications/MAMP/tmp/mysql/mysql.sock"
+        host: "localhost",
+        user: "root",
+        password: "root",
+        database: "burgers_db",
+        socketPath: "/Applications/MAMP/tmp/mysql/mysql.sock"
     });
 };
 
